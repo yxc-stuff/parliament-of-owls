@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Springs & Evolution - A Parliament of OWLS</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .reflection-piece {
+            margin: 3rem 0;
+            padding: 2rem;
+            border-left: 3px solid #333;
+        }
+        
+        .reflection-title {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-bottom: 1rem;
+            color: #333;
+        }
+        
+        .reflection-text {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            font-style: italic;
+        }
+        
+        .circular-text {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+        
+        .circle-visual {
+            width: 60px;
+            height: 60px;
+            border: 3px solid #333;
+            border-radius: 50%;
+            flex-shrink: 0;
+            animation: rotate 4s linear infinite;
+        }
+        
+        @keyframes rotate {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Menu -->
+    <nav class="top-nav">
+        <a href="index.html">HOME</a>
+        <a href="thoughts.html">THOUGHTS</a>
+        <a href="arts.html">ARTS</a>
+        <a href="quotes.html">QUOTES</a>
+    </nav>
+
+    <!-- Blog Post Container -->
+    <article class="blog-post">
+        <div class="post-header">
+            <span class="post-category">REFLECTIONS</span>
+            <h1>Springs & Evolution</h1>
+            <p class="post-meta">October 20, 2025 · 2 min read</p>
+        </div>
+
+        <div class="post-content">
+            <!-- First Reflection -->
+            <div class="reflection-piece">
+                <div class="reflection-title">springs</div>
+                <p class="reflection-text">
+                    We are all springs — soft once, then hardened by time. Stretch wisely, before the memory of bending fades, but make sure the spring doesn't snap.
+                </p>
+            </div>
+
+            <!-- Second Reflection -->
+            <div class="reflection-piece">
+                <div class="reflection-title">evolu, revolu</div>
+                <div class="circular-text">
+                    <div class="circle-visual"></div>
+                    <p class="reflection-text">
+                        round and round it goes.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="post-footer">
+            <a href="thoughts.html" class="back-link">← Back to all thoughts</a>
+        </div>
+    </article>
+</body>
+</html>
